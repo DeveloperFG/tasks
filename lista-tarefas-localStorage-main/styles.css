@@ -1,0 +1,131 @@
+body {
+    padding-top: 32px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border: none;
+    background-color: #EFEFEF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+}
+
+.input-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+button {
+    margin: 0 !important;
+}
+
+.list {
+    width: 600px;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border: none;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    
+}
+
+.reveal {
+    display: flex;    
+}
+
+.list  span{
+    color: green;
+    font-weight: bold;
+    
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+}
+
+li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+@media (min-width: 375px) and (max-width: 425px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        width: 70%;
+        background-color: #EFEFEF;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        border-radius: 10px;
+    }
+
+    .input-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    
+    .list {
+    margin: auto;
+    display: none;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border: none;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    }
+        
+    .imgTasks{
+        width: 100px;
+        height: 50px;
+    }
+
+    #btnAdd{
+        width: 100px;
+        height: 30px
+    }
+
+    .list span{
+        color: dodgerblue;
+    }
+
+    .reveal {
+        display: flex;    
+    }
+    
+}
